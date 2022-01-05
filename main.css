@@ -31,3 +31,15 @@
     width: fit-content;
 }
 
+.footer-section {
+    margin-top: 100px;
+}
+
+.footer-col {
+   text-align: center;
+}
+
+.footer-links {
+    list-style-type: none;
+}
+
