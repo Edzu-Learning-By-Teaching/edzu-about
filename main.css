@@ -1,7 +1,3 @@
-.main {
-    margin-top: 90px;
-}
-
 .title {
     text-align: center;
     margin: 2rem;
@@ -77,11 +73,28 @@
     width: fit-content;
 }
 
+.footer-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.instagram, .linkedin, .email {
+    width: 25px;
+}
+
 .footer-col {
    text-align: center;
 }
 
 .footer-links {
     list-style-type: none;
+    padding: 0;
 }
 
+.footer-links li {
+    padding-top: 0.6rem;
+}
+
+a {
+    text-decoration: none;
+}
