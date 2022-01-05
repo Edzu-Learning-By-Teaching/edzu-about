@@ -78,6 +78,10 @@
     padding-bottom: 2rem;
 }
 
+.edzu-logo-footer {
+    padding: 1rem;
+}
+
 .instagram, .linkedin, .email {
     width: 25px;
 }
@@ -94,6 +98,13 @@
 .footer-links li {
     padding-top: 0.6rem;
 }
+
+.copyrights {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/*********************************/
 
 a {
     text-decoration: none;
