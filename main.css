@@ -1,10 +1,18 @@
+.main {
+    margin-top: 90px;
+}
+
 .title {
     text-align: center;
     margin: 2rem;
 }
 
-#about {
+#home, #about, #timeline, #contact,  #footer{
     margin-top: 5rem;
+}
+
+#home, #about, #timeline, #contact {
+    padding-top: 90px;
 }
 
 .about-pic {
@@ -67,10 +75,6 @@
 .submit-btn {
     margin: auto;
     width: fit-content;
-}
-
-.footer-section {
-    margin-top: 100px;
 }
 
 .footer-col {
