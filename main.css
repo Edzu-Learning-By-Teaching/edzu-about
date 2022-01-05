@@ -3,6 +3,44 @@
     margin: 2rem;
 }
 
+#about {
+    margin-top: 5rem;
+}
+
+.about-pic {
+    width: 500px;
+}
+
+.topic {
+    display: flex;
+    margin-top: 150px;
+}
+
+.para {
+    width: 350px;
+    position: relative;
+    flex: 1;
+}
+
+.about-question {
+    text-align: center;
+}
+
+.para1, .para2, .para3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);  
+}
+
+.para1, .para3 {
+    margin-right: 5rem;
+}
+
+.pic {
+    flex: 1;
+}
 
 .contact-form {
     width: fit-content;
