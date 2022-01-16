@@ -47,19 +47,32 @@
 }
 
 .contact-form {
-    width: fit-content;
-    margin-right: auto;
+    max-width: 1000px;
+    margin: 3rem auto;
 }
 
 .input-block {
     margin: 1rem auto;
     width: fit-content;
+    display: block;
+    width: 100%;
+}
+
+.input-label {
+    font-size: 1rem;
+    color: #666;
+    border-radius: 3px;
+    line-height: 1.4em;
 }
 
 .input-field {
-    width: 200px;
+    display: block;
+    width: 100%;
     margin-bottom: 0.8rem; 
     margin-top: 0.3rem;
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+    border-radius: 3px;
 }
 
 .required-sign {
@@ -69,8 +82,17 @@
 }
 
 .submit-btn {
-    margin: auto;
-    width: fit-content;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    background: #ADCAD6;
+    border-radius: 3px;
+    border: 1px solid #fff;
+}
+
+.submit-btn:hover {
+    background-color: #41BBD9;
 }
 
 .footer-section {
