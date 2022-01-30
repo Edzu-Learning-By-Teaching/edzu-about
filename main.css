@@ -1,0 +1,255 @@
+/********************
+Reusable 
+*******************/
+.title .h2 {
+    font-weight: bold;
+    font-size: 50%;
+}
+.h6 {
+    font-size: 4%;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+/*******************/
+
+.title {
+    text-align: center;
+    margin: 2rem;
+}
+
+#home, #about, #section-timeline, #contact,  #footer{
+    margin-top: 5rem;
+}
+
+#home, #about, #timeline, #contact {
+    padding-top: 90px;
+}
+
+.about-pic {
+    width: 500px;
+}
+
+.topic {
+    display: flex;
+    margin-top: 150px;
+}
+
+.para {
+    width: 350px;
+    position: relative;
+    flex: 1;
+}
+
+.about-question {
+    text-align: center;
+}
+
+.para1, .para2, .para3 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);  
+}
+
+.para1, .para3 {
+    margin-right: 5rem;
+}
+
+.pic {
+    flex: 1;
+}
+
+.contact-form {
+    width: fit-content;
+    margin-right: auto;
+}
+
+.input-block {
+    margin: 1rem auto;
+    width: fit-content;
+}
+
+.input-field {
+    width: 200px;
+    margin-bottom: 0.8rem; 
+    margin-top: 0.3rem;
+}
+
+.required-sign {
+    color: red !important; 
+    display: inline; 
+    float: none;
+}
+
+.submit-btn {
+    margin: auto;
+    width: fit-content;
+}
+
+.footer-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.edzu-logo-footer {
+    padding: 1rem;
+}
+
+.instagram, .linkedin, .email {
+    width: 25px;
+}
+
+.footer-col {
+   text-align: center;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    padding-top: 0.6rem;
+}
+
+.copyrights {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/*********************************/
+
+a {
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------*/
+/* SECTION TIMELINE*/
+/*----------------------------------------------------------------------------*/
+
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.section-timeline {
+    background-color: #f5f5f5;
+    padding: 0 0 50px 0;
+}
+
+.timeline-wrapper {
+  display: block;
+  width: 100%;
+  height: 10rem;
+  position: relative;
+  color: #333;
+  text-align: center;
+  margin: 0 auto;
+}
+.timeline-wrapper .timeline-line {
+  display: block;
+  width: 93.9%;
+  height: 1px;
+  background: white;
+  position: absolute;
+  top: 30%;
+  -webkit-box-shadow: 0 0 1px black;
+  -moz-box-shadow: 0 0 1px black;
+  box-shadow: 0 0 1px black;
+  left: 3%;
+  margin-left: 2.5px;
+}
+.timeline-wrapper .timeline-content-day {
+  height: 100%;
+}
+.timeline-wrapper .timeline-content-item {
+  background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+  width: 23%;
+  display: inline-block;
+  position: relative;
+  height: 80%;
+  -webkit-transition: width .5s;
+  -moz-transition: width .5s;
+  -o-transition: width .5s;
+  transition: width .5s;
+  z-index: 1;
+}
+.timeline-wrapper .timeline-content-item > span {
+  height: 2rem;
+  display: block;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-top: -.25em;
+  width: 100%;
+  cursor: pointer;
+}
+.timeline-wrapper .timeline-content-item > span:before {
+  content: " ";
+  display: block;
+  width: .5em;
+  height: .5em;
+  background: white;
+  margin: 0 auto .5em auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 1px black;
+  -moz-box-shadow: 0 0 1px black;
+  box-shadow: 0 0 1px black;
+}
+.timeline-wrapper .timeline-content-item .timeline-content-item-reveal {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -50%;
+  width: 110%;
+}
+.timeline-wrapper .timeline-content-item .timeline-content-item-reveal a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.timeline-wrapper .timeline-content-item .timeline-content-item-reveal a img {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  max-width: 110%;
+  border: 3px solid white;
+  -webkit-box-shadow: 0 0 2px black;
+  -moz-box-shadow: 0 0 2px black;
+  box-shadow: 0 0 2px black;
+}
+.timeline-wrapper .timeline-content-item .timeline-content-item-reveal a span {
+  position: absolute;
+  width: 250%;
+  margin-left: -70%;
+  bottom: -2rem;
+  left: 0;
+  font-family: 'Lato','Arial','sans-serif';
+  font-size: 1.4em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #333;
+}
+.timeline-wrapper .timeline-content-item .timeline-content-item-reveal a span:after {
+  content: "\203A";
+  margin-left: .3em;
+}
+.timeline-wrapper .timeline-content-item.active {
+  width: 10%;
+    font-size: 12px;
+}
+.timeline-wrapper .timeline-content-item.active .timeline-content-item-reveal {
+  display: block;
+}
+
