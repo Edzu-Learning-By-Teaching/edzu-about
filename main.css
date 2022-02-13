@@ -3,7 +3,7 @@
     margin: 2rem;
 }
 
-#home, #about, #timeline, #contact,  #footer{
+#about, #timeline, #contact,  #footer{
     margin-top: 5rem;
 }
 
@@ -17,6 +17,26 @@
 
 .about-pic {
     width: 500px;
+}
+
+.intro {
+    position: absolute;
+    margin-top: 5rem;
+    top: 8px;
+    right: 16px;
+    z-index: 100;
+}
+
+#home .flex {
+    display: flex;
+}
+
+#home .flex .flex-child {
+    flex: 1;
+}
+
+#home.flex.flex-child {
+
 }
 
 .topic {
@@ -103,14 +123,24 @@
     padding-top: 2rem;
     padding-bottom: 0.4rem;
     background-color: #41BBD9;
+    /* background-color: #fff; */
 }
 
 .edzu-logo-footer {
     padding: 1rem;
 }
 
-.instagram, .linkedin, .twitter, .email {
+.widget-title {
+    margin-bottom: 1rem;
+}
+
+.social-media {
+    margin-bottom: 2rem;
+}
+
+.instagram, .linkedin, .twitter, .email, .youtube {
     width: 25px;
+    margin: 0.2rem;
 }
 
 .footer-col {
