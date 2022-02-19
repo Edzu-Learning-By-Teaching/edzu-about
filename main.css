@@ -33,18 +33,6 @@
     z-index: 100;
 }
 
-#home .flex {
-    display: flex;
-}
-
-#home .flex .flex-child {
-    flex: 1;
-}
-
-#home.flex.flex-child {
-
-}
-
 .topic {
     display: flex;
     margin-top: 150px;
