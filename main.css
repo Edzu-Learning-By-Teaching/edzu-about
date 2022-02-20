@@ -148,9 +148,10 @@ a {
 }
 
 .col-sm{
-  background-color: grey;
-  max-height: 60vh;
-  max-width: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 60vh;
+  width: auto;
   margin: 1vh;
   border-radius: 5px;
   display: flex;
@@ -163,6 +164,7 @@ a {
 .card__name {
   margin-top: 15px;
   font-size: 1.5em;
+  color: #272133;
   font-family: "Segoe UI";
 }
 
@@ -170,9 +172,7 @@ a {
   height: 160px;
   width: 160px;
   border-radius: 50%;
-  border: 5px solid #272133;
   margin-top: 20px;
-  box-shadow: 0 10px 50px rgb(25, 204, 235);
 }
 
 
@@ -213,7 +213,7 @@ a {
 
 .draw-border:hover::before,
 .draw-border:hover::after {
-  border-color: #41BBD9;
+  border-color: #e2e2e2;
   -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
@@ -264,7 +264,7 @@ a {
   height: 45px;
   border-radius: 100%;
   display: block;
-  background: linear-gradient(45deg, #41BBD9, #F18F01);
+  background: grey;
   transition: all 265ms ease-out;
 }
 
@@ -277,8 +277,8 @@ a {
   transform: scale(2.2);
   -ms-transform: scale(2.2);
   -webkit-transform: scale(2.2);
-  color: #F18F01;
-  background: -webkit-linear-gradient(45deg, #41BBD9, #F18F01);
+  color: grey;
+  background: grey;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
