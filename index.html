@@ -12,7 +12,7 @@
 </head>
 <body>
     <section id="header">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="#home"><img style="height:60px" src="assets/Edzu-logo.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,23 +20,28 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                       <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#about">About Us</a>
-                        <a class="nav-link" href="#timeline">Timeline</a>
-                        <a class="nav-link" href="#cofounder">Co-founders</a>
-                        <a class="nav-link" href="#contact">Contact Us</a>
+                        <a class="active links" aria-current="page" href="#">Home</a>
+                        <a class="links" href="#about">About Us</a>
+                        <a class="links" href="#timeline">Timeline</a>
+                        <a class="links" href="#cofounder">Co-founders</a>
+                        <a class="links" href="#contact">Contact Us</a>
                       </div>
                 </div>
             </div>
         </nav>
     </section>
 
-    <div class="container">
-        <section id="home">
-            <img style="width:100%" src="assets/placeholder-image.png">
-            <hr>
-        </section>
+    <section id="home">
+        <div style="background-color: #f8f6e7;">
+            <img class="home-section-pic" src="assets/home-section2.jpeg">
+            <div class="intro">
+                <h1>Our community believes in learning by teaching</h1>
+                <p>Some context from some reliable source about learning by teaching</p>
+            </div>
+        </div>
+    </section>
     
+    <div class="container">    
         <section id="about">
             <div class="container">
                 <h2 class="title">About Us</h2>
@@ -476,12 +481,12 @@
     </div>
 
     <section id="footer">
-        <div class="footer-section container">
+        <div class="footer-section">
             <div class="row">
                 <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12 footer-col">
-                    <h5>Edzu</h5>
+                    <a class="links" href="#home"><h5>Edzu</h5></a>
                     <div class="edzu-logo-footer">
-                        <img style="height:90px" src="assets/Edzu-logo.png">
+                        <a href="#home"><img style="height:90px" src="assets/Edzu-logo.png"></a>
                     </div>
                     <p>
                       Learn by Teaching
@@ -490,26 +495,28 @@
                 <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12 footer-col">
                     <h5>QUICK LINKS</h5>
                     <ul class="footer-links">
-                      <li><a href="#about">About Us</a></li>
-                      <li><a href="#timeline">Timeline</a></li>
-                      <li><a href="#cofounders">Co-founders</a></li>
-                      <li><a href="#contact">Contact Us</a></li>
+                      <li><a class="links" href="#about">About Us</a></li>
+                      <li><a class="links" href="#timeline">Timeline</a></li>
+                      <li><a class="links" href="#cofounders">Co-founders</a></li>
+                      <li><a class="links" href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
                   
                 <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12 footer-col">
                     <div class="widget">
-                      <h5 class="widget-title">FOLLOW US ON</h5>
-                      <ul class="footer-links">
-                        <li><a href="https://www.instagram.com/_edzu__/" target="_blank"><img class="instagram" src="assets/instagram.png" alt=""></a></li>
-                        <li><a href="https://www.linkedin.com/company/edzu/" target="_blank"><img class="linkedin" src="assets/linkedin-logo.png" alt=""></a></li>
-                      </ul>
+                    <h5 class="widget-title">FOLLOW US ON</h5>
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/_edzu__/" target="_blank"><img class="instagram" src="assets/instagram.png" alt=""></a>
+                        <a href="https://www.linkedin.com/company/edzu/" target="_blank"><img class="linkedin" src="assets/linkedin.png" alt=""></a>
+                        <a href="https://www.twitter.com/edzu_community" target="_blank"><img class="twitter" src="assets/twitter.png" alt=""></a>
+                        <a href="https://www.youtube.com/channel/UCY1a7wIp1unmjUwRNhzFgGw" target="_blank"><img class="youtube" src="assets/youtube.png" alt=""></a>
+                    </div>
                     </div>
                     <div class="widget">
                         <h5 class="widget-title">REACH US AT</h5>
-                        <ul class="footer-links">
-                          <li><a href="mailto:edzuacmp@gmail.com" target="blank"><img class="email" src="assets/email.png" alt=""></a></li>
-                        </ul>
+                        <div class="social-media">
+                          <a href="mailto:edzuacmp@gmail.com" target="blank"><img class="email" src="assets/email.png" alt=""></a>
+                        </div>
                     </div>
                 </div>
                 

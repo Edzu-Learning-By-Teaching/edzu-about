@@ -3,16 +3,34 @@
     margin: 2rem;
 }
 
-#home, #about, #timeline, #contact,  #footer{
+#about, #timeline, #contact,  #footer{
     margin-top: 5rem;
+}
+
+.navbar {
+    background-color: #41BBD9;
 }
 
 #home, #about, #timeline, #contact {
     padding-top: 90px;
 }
 
+.home-section-pic {
+    width: 80%;
+    margin-left: 26rem;
+}
+
 .about-pic {
     width: 500px;
+}
+
+.intro {
+    position: absolute;
+    margin-top: 5rem;
+    top: 213px;
+    width: 30rem;
+    left: 31px;
+    z-index: 100;
 }
 
 .topic {
@@ -98,14 +116,25 @@
 .footer-section {
     padding-top: 2rem;
     padding-bottom: 0.4rem;
+    background-color: #41BBD9;
+    /* background-color: #fff; */
 }
 
 .edzu-logo-footer {
     padding: 1rem;
 }
 
-.instagram, .linkedin, .email {
+.widget-title {
+    margin-bottom: 1rem;
+}
+
+.social-media {
+    margin-bottom: 2rem;
+}
+
+.instagram, .linkedin, .twitter, .email, .youtube {
     width: 25px;
+    margin: 0.2rem;
 }
 
 .footer-col {
@@ -121,9 +150,27 @@
     padding-top: 0.6rem;
 }
 
+.links {
+    text-decoration: none;
+    color: #000; 
+}
+
+.navbar-nav .links {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.links:hover {
+    color: #fff;
+}
+
+.footer-section hr{
+    margin: 0;
+}
+
 .copyrights {
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.1rem;
 }
 
 /*********************************/
@@ -291,3 +338,10 @@ a {
   font-size: 1.2em;
 }
 
+/*********************************/
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav .links{
+        margin: 0.25rem auto;
+    }
+}
