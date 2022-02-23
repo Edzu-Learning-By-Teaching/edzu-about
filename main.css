@@ -16,9 +16,11 @@
 }
 
 .home-section-pic {
-    width: 80%;
-    margin-left: 26rem;
+  max-width: 100%;
+  /* margin-left: 26rem; */
+  height: auto;
 }
+
 
 .about-pic {
     width: 500px;
@@ -30,6 +32,7 @@
     top: 213px;
     width: 30rem;
     left: 31px;
+    /* right: 16px; */
     z-index: 100;
 }
 
@@ -338,10 +341,40 @@ a {
   font-size: 1.2em;
 }
 
+
 /*********************************/
 
 @media only screen and (max-width: 991px) {
-    .navbar-nav .links{
-        margin: 0.25rem auto;
+
+    .title{
+      background-color: pink;
     }
+
+    .about-pic{
+      width: 100%;
+    }
+
+    .about-question{
+      font-size: 20px;
+    }
+
+    .about-answer{
+      font-size: 10px;
+    }
+
+    
+    div.intro{
+      font-size: 20px;
+    }
+
+
 }
+
+@media only screen and (min-width: 991px){
+
+  .home-section-pic {
+    margin-left: 26rem;
+  }
+}
+
+
