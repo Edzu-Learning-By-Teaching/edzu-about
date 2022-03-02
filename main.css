@@ -1,9 +1,10 @@
+
 .title {
     text-align: center;
     margin: 2rem;
 }
 
-#about, #timeline, #contact,  #footer{
+#about, #timeline, #cofounders, #contact,  #footer{
     margin-top: 5rem;
 }
 
@@ -11,12 +12,13 @@
     background-color: #41BBD9;
 }
 
-#home, #about, #timeline, #contact {
+#home, #about, #timeline, #cofounders, #contact {
     padding-top: 90px;
 }
 
 .home-section-pic {
-    width: 80%;
+    width: 80vw;
+    height: 100vh;
     margin-left: 26rem;
 }
 
@@ -104,13 +106,13 @@
     color: #fff;
     text-decoration: none;
     padding: 15px 30px;
-    background: #ADCAD6;
+    background: #41BBD9;
     border-radius: 3px;
     border: 1px solid #fff;
 }
 
 .submit-btn:hover {
-    background-color: #41BBD9;
+    background-color: #ADCAD6;
 }
 
 .footer-section {
