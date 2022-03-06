@@ -3,7 +3,7 @@
     margin: 2rem;
 }
 
-#about, #timeline, #contact,  #footer{
+#about, #timeline, #cofounder, #footer {
     margin-top: 5rem;
 }
 
@@ -11,7 +11,7 @@
     background-color: #41BBD9;
 }
 
-#home, #about, #timeline, #contact {
+#home, #about, #timeline, #cofounder {
     padding-top: 80px;
 }
 
@@ -100,55 +100,6 @@
 
 .pic {
     flex: 1;
-}
-
-.contact-form {
-    max-width: 1000px;
-    margin: 3rem auto;
-}
-
-.input-block {
-    margin: 1rem auto;
-    width: fit-content;
-    display: block;
-    width: 100%;
-}
-
-.input-label {
-    font-size: 1rem;
-    color: #666;
-    border-radius: 3px;
-    line-height: 1.4em;
-}
-
-.input-field {
-    display: block;
-    width: 100%;
-    margin-bottom: 0.8rem; 
-    margin-top: 0.3rem;
-    border: 1px solid #DDDDDD;
-    padding: 10px;
-    border-radius: 3px;
-}
-
-.required-sign {
-    color: red !important; 
-    display: inline; 
-    float: none;
-}
-
-.submit-btn {
-    width: 100%;
-    color: #fff;
-    text-decoration: none;
-    padding: 15px 30px;
-    background: #ADCAD6;
-    border-radius: 3px;
-    border: 1px solid #fff;
-}
-
-.submit-btn:hover {
-    background-color: #41BBD9;
 }
 
 .footer-section {
