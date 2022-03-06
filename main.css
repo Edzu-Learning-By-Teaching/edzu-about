@@ -71,10 +71,12 @@ body {
     position: absolute;
     margin-top: 5rem;
     top: 213px;
-    width: 30rem;
+    width: 35rem;
     left: 31px;
     z-index: 100;
     text-align: center;
+    background-color: #f8f6e7;
+    padding: 0 5rem 12.3rem;
 }
 
 .topic {
