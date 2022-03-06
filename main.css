@@ -12,12 +12,45 @@
 }
 
 #home, #about, #timeline, #contact {
-    padding-top: 90px;
+    padding-top: 80px;
 }
 
 #home {
   overflow: hidden;
 }
+
+.home-section-heading {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.tag-line {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+
+.quote-div {
+  margin: 3.5rem 0;
+}
+
+.quote {
+  margin: 0;
+  background: #41BBD9;
+  padding: 0.8em;
+  border-radius: 1em;
+}
+
+.quote figcaption,
+.quote blockquote {
+  margin: 0.5em;
+}
+
+.quote .links {
+  text-decoration: underline;
+}
+
+
 
 .home-section-pic {
     width: 80%;
@@ -35,6 +68,7 @@
     width: 30rem;
     left: 31px;
     z-index: 100;
+    text-align: center;
 }
 
 .topic {
