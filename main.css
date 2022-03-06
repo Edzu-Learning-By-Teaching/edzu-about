@@ -21,7 +21,7 @@ body {
     padding-top: 80px;
 }
 
-#home {
+.intro {
   overflow: hidden;
 }
 
@@ -45,6 +45,7 @@ body {
   background: #41BBD9;
   padding: 0.8em;
   border-radius: 1em;
+  color: #fff;
 }
 
 .quote figcaption,
@@ -150,7 +151,7 @@ body {
 
 .links {
     text-decoration: none;
-    color: #000; 
+    color: #fff; 
 }
 
 .navbar-nav .links {
@@ -159,7 +160,7 @@ body {
 }
 
 .links:hover {
-    color: #fff;
+    color: #000;
 }
 
 .footer-section hr{
@@ -195,7 +196,7 @@ a {
 .col-sm{
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 60vh;
+  height: 45vh;
   width: auto;
   margin: 1vh;
   border-radius: 5px;
