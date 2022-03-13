@@ -57,11 +57,15 @@ body {
   text-decoration: underline;
 }
 
-
-
 .home-section-pic {
-    width: 80%;
-    margin-left: 26rem;
+  height: 40%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
 
 .about-pic {
@@ -69,15 +73,11 @@ body {
 }
 
 .intro {
-    position: absolute;
-    margin-top: 5rem;
-    top: 213px;
-    width: 35rem;
-    left: 31px;
-    z-index: 100;
-    text-align: center;
-    background-color: #f8f6e7;
-    padding: 0 5rem 12.3rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .topic {
