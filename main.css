@@ -342,10 +342,6 @@ a {
 /*********************************/
 
 @media only screen and (max-width: 991px) {
-    .title{
-      background-color: pink;
-    }
-
     .about-pic{
       width: 100%;
     }
