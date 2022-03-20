@@ -25,6 +25,11 @@ body {
   overflow: hidden;
 }
 
+.home-section-heading, .tag-line {
+  color: #fff;
+  text-shadow: 0 0 6px #000;
+}
+
 .home-section-heading {
   font-size: 5rem;
   margin-bottom: 0;
