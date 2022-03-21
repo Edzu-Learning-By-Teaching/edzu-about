@@ -11,14 +11,26 @@
     background-color: #41BBD9;
 }
 
+.fa-brands{
+  color: white;
+  font-size: 1.75em;
+  margin: 0.5rem;
+}
+
 #home, #about, #timeline, #contact {
     padding-top: 90px;
 }
 
-.home-section-pic {
+/* .home-section-pic {
   max-width: 100%;
-  /* margin-left: 26rem; */
+  /* margin-left: 26rem;
   height: auto;
+} */
+
+.home-section-pic {
+  width: 80vw;
+  height: auto;
+  margin-left: 26rem;
 }
 
 
@@ -32,7 +44,6 @@
     top: 213px;
     width: 30rem;
     left: 31px;
-    /* right: 16px; */
     z-index: 100;
 }
 
@@ -366,8 +377,6 @@ a {
     div.intro{
       font-size: 20px;
     }
-
-
 }
 
 @media only screen and (min-width: 991px){
