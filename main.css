@@ -21,15 +21,6 @@
     padding-top: 90px;
 }
 
-/* .home-section-pic {
-  max-width: 100%;
-<<<<<<< HEAD
-  /* margin-left: 26rem;
-=======
->>>>>>> df24c09838b052fd3d8f6820631aa6deeac65e32
-  height: auto;
-} */
-
 .home-section-pic {
   width: 80vw;
   height: auto;
@@ -373,10 +364,6 @@ a {
     div.intro{
       font-size: 20px;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> df24c09838b052fd3d8f6820631aa6deeac65e32
 }
 
 @media only screen and (min-width: 991px){
