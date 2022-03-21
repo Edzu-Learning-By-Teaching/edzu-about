@@ -23,7 +23,10 @@
 
 /* .home-section-pic {
   max-width: 100%;
+<<<<<<< HEAD
   /* margin-left: 26rem;
+=======
+>>>>>>> df24c09838b052fd3d8f6820631aa6deeac65e32
   height: auto;
 } */
 
@@ -32,7 +35,6 @@
   height: auto;
   margin-left: 26rem;
 }
-
 
 .about-pic {
     width: 500px;
@@ -356,11 +358,6 @@ a {
 /*********************************/
 
 @media only screen and (max-width: 991px) {
-
-    .title{
-      background-color: pink;
-    }
-
     .about-pic{
       width: 100%;
     }
@@ -372,18 +369,19 @@ a {
     .about-answer{
       font-size: 10px;
     }
-
     
     div.intro{
       font-size: 20px;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> df24c09838b052fd3d8f6820631aa6deeac65e32
 }
 
 @media only screen and (min-width: 991px){
-
   .home-section-pic {
     margin-left: 26rem;
   }
 }
-
 
