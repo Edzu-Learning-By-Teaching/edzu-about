@@ -17,6 +17,22 @@ body {
     background-color: #41BBD9;
 }
 
+
+.fa-brands{
+  color: white;
+  font-size: 1.75em;
+  margin: 0.5rem;
+}
+
+#home, #about, #timeline, #contact {
+    padding-top: 90px;
+}
+
+.home-section-pic {
+  width: 80vw;
+  height: auto;
+  margin-left: 26rem;
+
 #home, #about, #timeline, #cofounder {
     padding-top: 80px;
 }
@@ -340,10 +356,30 @@ a {
   font-size: 1.2em;
 }
 
+
 /*********************************/
 
 @media only screen and (max-width: 991px) {
-    .navbar-nav .links{
-        margin: 0.25rem auto;
+    .about-pic{
+      width: 100%;
+    }
+
+    .about-question{
+      font-size: 20px;
+    }
+
+    .about-answer{
+      font-size: 10px;
+    }
+    
+    div.intro{
+      font-size: 20px;
     }
 }
+
+@media only screen and (min-width: 991px){
+  .home-section-pic {
+    margin-left: 26rem;
+  }
+}
+
