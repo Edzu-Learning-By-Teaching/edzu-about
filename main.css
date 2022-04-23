@@ -79,14 +79,6 @@ body {
 }
 
 .home-section-pic {
-  /* width: 100vw; */
-  /* width: 80vw;  */
-  /* height: auto; */
-  /* margin-left: 26rem; */
-}
-
-.home-section-pic {
-  /* height: 40%; */
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -384,10 +376,3 @@ a {
       font-size: 20px;
     }
 }
-
-/* @media only screen and (min-width: 991px){
-  .home-section-pic {
-    margin-left: 26rem;
-  }
-} */
-
