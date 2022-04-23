@@ -13,6 +13,10 @@ body {
     margin-top: 5rem;
 }
 
+.row {
+  width:100%;
+}
+
 .navbar {
     background-color: #41BBD9;
 }
@@ -76,13 +80,13 @@ body {
 
 .home-section-pic {
   /* width: 100vw; */
-  width: 80vw; 
-  height: auto;
-  margin-left: 26rem;
+  /* width: 80vw;  */
+  /* height: auto; */
+  /* margin-left: 26rem; */
 }
 
 .home-section-pic {
-  height: 40%;
+  /* height: 40%; */
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -381,9 +385,9 @@ a {
     }
 }
 
-@media only screen and (min-width: 991px){
+/* @media only screen and (min-width: 991px){
   .home-section-pic {
     margin-left: 26rem;
   }
-}
+} */
 
