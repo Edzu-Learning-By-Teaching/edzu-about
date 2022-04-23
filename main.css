@@ -28,10 +28,7 @@ body {
     padding-top: 90px;
 }
 
-.home-section-pic {
-  width: 80vw;
-  height: auto;
-  margin-left: 26rem;
+
 
 #home, #about, #timeline, #cofounder {
     padding-top: 80px;
@@ -75,6 +72,13 @@ body {
 
 .quote .links {
   text-decoration: underline;
+}
+
+.home-section-pic {
+  /* width: 100vw; */
+  width: 80vw; 
+  height: auto;
+  margin-left: 26rem;
 }
 
 .home-section-pic {
